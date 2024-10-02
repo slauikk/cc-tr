@@ -84,7 +84,7 @@ export const Header: FC<IHeader> = () => {
           className={clsx(styles.header_logo, styles.header_nav_item)}
           to="/"
         >
-          ЦК телекомунікацій та радіотехніки
+          <p style={{ fontSize: "24px" }}>ЦК телекомунікацій та радіотехніки</p>
         </Link>
         <div
           className={clsx(styles.header_burger)}
