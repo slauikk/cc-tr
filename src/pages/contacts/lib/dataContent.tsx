@@ -7,7 +7,7 @@ import Img_4 from "@/assets/people/Задорожній.png"
 import Img_5 from "@/assets/people/Федечко.png"
 import Img_6 from "@/assets/people/Штогрин.png"
 import Img_7 from "@/assets/people/Березіцький.png"
-
+import Img_8 from "@/assets/people/недошитко.jpg";
 
 export const dataContent = [{}]
 
@@ -20,6 +20,11 @@ export const dataContacts: IContact[] = [
   {
     name: "Приймак Віктор Адамович",
     img: Img_2,
+    info: ["потім буде"],
+  },
+  {
+    name: "Недошитко Людмила Миколаївна",
+    img: Img_8,
     info: ["потім буде"],
   },
   {
