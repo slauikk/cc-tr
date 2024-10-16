@@ -43,14 +43,6 @@ const certificatesData: ReactNode[][] = [
 
 export const dataContent = [
   {
-    title: "Сертифікати:",
-    content: (
-      <>
-        <Slider items={certificatesData} type="row" />
-      </>
-    ),
-  },
-  {
     title: "Для якісної реалізації цього напрямку викладачі комісії:",
     content: (
       <>
@@ -78,6 +70,14 @@ export const dataContent = [
             </li>
           </ul>
         </p>
+      </>
+    ),
+  },
+  {
+    title: "Сертифікати:",
+    content: (
+      <>
+        <Slider items={certificatesData} type="row" />
       </>
     ),
   },
