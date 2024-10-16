@@ -7,7 +7,7 @@ import { Slider } from "@/components/Slider";
 
 const certificatesData: ReactNode[][] = [
   [
-    <img src="public/assets/cer/1.jpg" style={{width: 'auto', height: '300px'}}/>,
+    <img src="/assets/cer/1.jpg" style={{width: 'auto', height: '300px'}}/>,
     <img src="public/assets/cer/2.jpg" style={{width: 'auto', height: '300px'}}/>,
     <img src="public/assets/cer/3.png" style={{width: 'auto', height: '300px'}}/>,
     <img src="public/assets/cer/4.png" style={{width: 'auto', height: '300px'}}/>,
