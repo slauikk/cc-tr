@@ -1,12 +1,55 @@
-import {Slider} from "@/components/Slider";
 import { ReactNode } from 'react';
 
-const certificatesData: ReactNode[][] = [
-  [<img src="src/pages/certification-training/certificates/comingSoon.jpg" alt="certificate 1" />]
-];
 
+
+import { Slider } from "@/components/Slider";
+
+
+const certificatesData: ReactNode[][] = [
+  [
+    <img src="src/assets/qualification/1.jpg" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/2.jpg" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/3.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/4.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/5.png" style={{width: 'auto', height: '300px'}}/>,
+  ],
+  [
+    <img src="src/assets/qualification/6.jpg" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/7.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/8.jpg" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/9.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/10.png" style={{width: 'auto', height: '300px'}}/>,
+  ],
+  [
+    <img src="src/assets/qualification/11.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/12.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/13.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/14.jpg" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/15.png" style={{width: 'auto', height: '300px'}}/>,
+  ],
+  [
+    <img src="src/assets/qualification/16.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/17.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/18.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/19.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/20.png" style={{width: 'auto', height: '300px'}}/>,
+  ],
+  [
+    <img src="src/assets/qualification/21.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/22.jpg" style={{width: 'auto', height: '300px'}}/>,
+    <img src="src/assets/qualification/23.png" style={{width: 'auto', height: '300px'}}/>,
+  ],
+]
 
 export const dataContent = [
+  {
+    title: "Сертифікати:",
+    content: (
+      <>
+        <Slider items={certificatesData} type="row" />
+      </>
+    ),
+  },
   {
     title: "Для якісної реалізації цього напрямку викладачі комісії:",
     content: (
@@ -67,19 +110,15 @@ export const dataContent = [
         </ul>
         <h2>Стажування:</h2>
         <ul>
-          <li>В вищих навчальних закладах в Тернопільському національному технічному університет імені Івана Пулюя , кафедра радіотехнічних систем а також  в Тернопільському національного педагогічного університету імені Володимира Гнатюка.</li>
-          <li>На підприємствах- ПП «Колумбус» та ТКБР «Стріла».
+          <li>
+            В вищих навчальних закладах в Тернопільському національному
+            технічному університет імені Івана Пулюя , кафедра радіотехнічних
+            систем а також в Тернопільському національного педагогічного
+            університету імені Володимира Гнатюка.
           </li>
+          <li>На підприємствах- ПП «Колумбус» та ТКБР «Стріла».</li>
         </ul>
       </>
     ),
   },
-  {
-    title: "Сертифікати:",
-    content: (
-      <>
-        <Slider items={certificatesData} type="row" />
-      </>
-    ),
-  },
-];
+]

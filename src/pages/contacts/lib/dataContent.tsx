@@ -15,41 +15,41 @@ export const dataContacts: IContact[] = [
   {
     name: "Василишин Ольга Зіновіївна",
     img: Img_1,
-    info: ["потім буде"],
+    info: ["olgavasyl08@gmail.com"],
   },
   {
     name: "Приймак Віктор Адамович",
     img: Img_2,
-    info: ["потім буде"],
+    info: ["featktdtu@ukr.net"],
   },
   {
     name: "Недошитко Людмила Миколаївна",
     img: Img_8,
-    info: ["потім буде"],
+    info: ["corporate.ned@gmail.com"],
   },
   {
     name: "Савчук Михайло Петрович",
     img: Img_3,
-    info: ["потім буде"],
+    info: ["sempe.tktntu@gmail.com"],
   },
   {
     name: "Задорожний Віктор Юліанович",
     img: Img_4,
-    info: ["потім буде"],
+    info: ["tr-402@ukr.net"],
   },
   {
     name: "Федечко Віталій Мар’янович",
     img: Img_5,
-    info: ["потім буде"],
+    info: ["tktntu-13@ukr.net"],
   },
   {
     name: "Штогрин Павло Ігорович",
     img: Img_6,
-    info: ["потім буде"],
+    info: ["pavloshtogrin@gmail.com"],
   },
   {
     name: "Березіцький Іван Володимирович",
     img: Img_7,
-    info: ["потім буде"],
+    info: ["iberezitskuy@gmail.com"],
   },
 ]
