@@ -1,6 +1,5 @@
 import {Images} from "@/components/images"
-import {Img} from "@/components/img"
-import {SectionImg} from "@/components/section-img"
+
 
 //1
 import img_1_1 from "@/assets/achivements/1.jpg"
