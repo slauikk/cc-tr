@@ -8,15 +8,10 @@ export interface ISponsors {
 
 export const dataSponsorsSource: ISponsors[][] = [
   [
-    {img: "/assets/it/1.png"},
-    {img: "/assets/it/2.png"},
-    {img: "/assets/it/3.png"},
-    {img: "/assets/it/4.png"},
-    {img: "/assets/it/5.png"},
-    {img: "/assets/it/6.png"},
-    {img: "/assets/it/7.png"},
-    {img: "/assets/it/8.png"},
-    {img: "/assets/it/9.png"},
+    {img: "/assets/цифродім/1.png"},
+    {img: "/assets/цифродім/2.png"},
+    {img: "/assets/цифродім/3.png"},
+    {img: "/assets/цифродім/4.png"},
   ],
 ]
 
@@ -33,83 +28,136 @@ dataSponsorsSource.map((e, i) => {
   })
 })
 
-export const dataSponsorsSourceMagnis: ISponsors[][] = [
+export const dataSponsorsSource_2: ISponsors[][] = [
   [
-    {img: "/assets/magnis/1.png"},
-    {img: "/assets/magnis/2.png"},
-    {img: "/assets/magnis/3.png"},
+    {img: "/assets/роботодавці/1.jpg"},
+    {img: "/assets/роботодавці/2.jpg"},
+    {img: "/assets/роботодавці/3.jpg"},
+    {img: "/assets/роботодавці/4.jpg"},
+    {img: "/assets/роботодавці/5.jpg"},
+    {img: "/assets/роботодавці/6.jpg"},
+    {img: "/assets/роботодавці/7.jpg"},
+    {img: "/assets/роботодавці/8.jpg"},
+    {img: "/assets/роботодавці/9.jpg"},
+    {img: "/assets/роботодавці/10.jpg"},
   ],
 ]
 
-export let dataSponsorsMagnis: ReactNode[][] = [[]]
+export let dataSponsors_2: ReactNode[][] = [[]]
 
-Array(dataSponsorsSourceMagnis.length)
+Array(dataSponsorsSource_2.length)
   .fill(null)
-  .map(() => (dataSponsorsMagnis = [...dataSponsorsMagnis, []]))
+  .map(() => (dataSponsors_2 = [...dataSponsors_2, []]))
 
-dataSponsorsSourceMagnis.map((e, i) => {
+dataSponsorsSource_2.map((e, i) => {
   e.map((el) => {
     const elem = <SlideItem {...el} />
-    dataSponsorsMagnis[i] = [...dataSponsorsMagnis[i], elem]
+    dataSponsors_2[i] = [...dataSponsors_2[i], elem]
   })
 })
 
-export const dataSponsorsSourceEleks: ISponsors[][] = [
-  [{img: "/assets/eleks/1.png"}, {img: "/assets/eleks/2.png"}],
-]
-
-export let dataSponsorsEleks: ReactNode[][] = [[]]
-
-Array(dataSponsorsSourceEleks.length)
-  .fill(null)
-  .map(() => (dataSponsorsEleks = [...dataSponsorsEleks, []]))
-
-dataSponsorsSourceEleks.map((e, i) => {
-  e.map((el) => {
-    const elem = <SlideItem {...el} />
-    dataSponsorsEleks[i] = [...dataSponsorsEleks[i], elem]
-  })
-})
-
-export const dataSponsorsSourceHourOfCode: ISponsors[][] = [
+export const dataSponsorsSource_3: ISponsors[][] = [
   [
-    {img: "/assets/hour-of-code/1.png"},
-    {img: "/assets/hour-of-code/2.png"},
-    {img: "/assets/hour-of-code/3.png"},
+    {img: "/assets/orion/1.jpg"},
+    {img: "/assets/orion/2.jpg"},
+    {img: "/assets/orion/3.jpg"},
+    {img: "/assets/orion/4.jpg"},
+    {img: "/assets/orion/5.jpg"},
+    {img: "/assets/orion/6.jpg"},
   ],
 ]
 
-export let dataSponsorsHourOfCode: ReactNode[][] = [[]]
+export let dataSponsors_3: ReactNode[][] = [[]]
 
-Array(dataSponsorsSourceHourOfCode.length)
+Array(dataSponsorsSource_3.length)
   .fill(null)
-  .map(() => (dataSponsorsHourOfCode = [...dataSponsorsHourOfCode, []]))
+  .map(() => (dataSponsors_3 = [...dataSponsors_3, []]))
 
-dataSponsorsSourceHourOfCode.map((e, i) => {
+dataSponsorsSource_3.map((e, i) => {
   e.map((el) => {
     const elem = <SlideItem {...el} />
-    dataSponsorsHourOfCode[i] = [...dataSponsorsHourOfCode[i], elem]
+    dataSponsors_3[i] = [...dataSponsors_3[i], elem]
   })
 })
 
-export const dataSponsorsSourceElogic: ISponsors[][] = [
+export const dataSponsorsSource_4: ISponsors[][] = [
   [
-    {img: "/assets/elogic/1.png"},
-    {img: "/assets/elogic/2.png"},
-    {img: "/assets/elogic/3.png"},
-    {img: "/assets/elogic/4.png"},
+    {img: "/assets/цб/1.jpg"},
+    {img: "/assets/цб/2.jpg"},
+    {img: "/assets/цб/3.jpg"},
+    {img: "/assets/цб/4.jpg"},
+    {img: "/assets/цб/5.jpg"},
+    {img: "/assets/цб/6.jpg"},
   ],
 ]
 
-export let dataSponsorsElogic: ReactNode[][] = [[]]
+export let dataSponsors_4: ReactNode[][] = [[]]
 
-Array(dataSponsorsSourceElogic.length)
+Array(dataSponsorsSource_4.length)
   .fill(null)
-  .map(() => (dataSponsorsElogic = [...dataSponsorsElogic, []]))
+  .map(() => (dataSponsors_4 = [...dataSponsors_4, []]))
 
-dataSponsorsSourceElogic.map((e, i) => {
+dataSponsorsSource_4.map((e, i) => {
   e.map((el) => {
     const elem = <SlideItem {...el} />
-    dataSponsorsElogic[i] = [...dataSponsorsElogic[i], elem]
+    dataSponsors_4[i] = [...dataSponsors_4[i], elem]
+  })
+})
+
+export const dataSponsorsSource_5: ISponsors[][] = [
+  [
+    {img: "/assets/колумбус/1.jpg"},
+    {img: "/assets/колумбус/2.jpg"},
+    {img: "/assets/колумбус/3.jpg"},
+    {img: "/assets/колумбус/4.jpg"},
+    {img: "/assets/колумбус/5.jpg"},
+    {img: "/assets/колумбус/6.jpg"},
+    {img: "/assets/колумбус/7.jpg"},
+    {img: "/assets/колумбус/8.jpg"},
+    {img: "/assets/колумбус/9.jpg"},
+    {img: "/assets/колумбус/10.jpg"},
+    {img: "/assets/колумбус/11.jpg"},
+    {img: "/assets/колумбус/12.jpg"},
+    {img: "/assets/колумбус/13.jpg"},
+    {img: "/assets/колумбус/14.jpg"},
+    {img: "/assets/колумбус/15.jpg"},
+    {img: "/assets/колумбус/16.jpg"},
+    {img: "/assets/колумбус/17.jpg"},
+  ],
+]
+
+export let dataSponsors_5: ReactNode[][] = [[]]
+
+Array(dataSponsorsSource_5.length)
+  .fill(null)
+  .map(() => (dataSponsors_5 = [...dataSponsors_5, []]))
+
+dataSponsorsSource_5.map((e, i) => {
+  e.map((el) => {
+    const elem = <SlideItem {...el} />
+    dataSponsors_5[i] = [...dataSponsors_5[i], elem]
+  })
+})
+export const dataSponsorsSource_6: ISponsors[][] = [
+  [
+    {img: "/assets/6/1.jpg"},
+    {img: "/assets/6/2.jpg"},
+    {img: "/assets/6/3.jpg"},
+    {img: "/assets/6/4.jpg"},
+    {img: "/assets/6/5.jpg"},
+    {img: "/assets/6/6.jpg"},
+  ],
+]
+
+export let dataSponsors_6: ReactNode[][] = [[]]
+
+Array(dataSponsorsSource_6.length)
+  .fill(null)
+  .map(() => (dataSponsors_6 = [...dataSponsors_6, []]))
+
+dataSponsorsSource_6.map((e, i) => {
+  e.map((el) => {
+    const elem = <SlideItem {...el} />
+    dataSponsors_6[i] = [...dataSponsors_6[i], elem]
   })
 })

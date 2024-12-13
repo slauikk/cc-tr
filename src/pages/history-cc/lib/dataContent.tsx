@@ -3,7 +3,8 @@ import Image_1 from "@/assets/historyCC/тр2009.jpg";
 import Image_2 from "@/assets/historyCC/тр2012.jpg";
 import Image_3 from "@/assets/historyCC/тр2016.jpg";
 import Image_4 from "@/assets/historyCC/тр2020.jpg";
-
+import Image_5 from "@/assets/historyCC/тр2004.jpg";
+import Image_6 from "@/assets/historyCC/тр2024.jpg";
 export const dataContent = [
   {
     content: (
@@ -26,6 +27,14 @@ export const dataContent = [
           та електронних систем.
         </p>
       </>
+    ),
+  },
+  {
+    content: (
+      <div style={{textAlign: "center"}}>
+        <Img src={Image_5} />
+        <p>Члени циклової комісії у 2004 році.</p>
+      </div>
     ),
   },
   {
@@ -57,6 +66,14 @@ export const dataContent = [
       <div style={{textAlign: "center"}}>
         <Img src={Image_4} />
         <p>Члени циклової комісії у 2020 році.</p>
+      </div>
+    ),
+  },
+  {
+    content: (
+      <div style={{textAlign: "center"}}>
+        <Img src={Image_6} />
+        <p>Члени циклової комісії у 2024 році.</p>
       </div>
     ),
   },
