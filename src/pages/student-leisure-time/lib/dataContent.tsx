@@ -5,8 +5,6 @@ import {
   dataSponsors_2,
   dataSponsors_3,
   dataSponsors_4,
-  dataSponsors_5,
-  dataSponsors_6,
 } from "../data/dataSlider"
 
 export const dataContent = [
@@ -39,26 +37,11 @@ export const dataContent = [
   {
     content: (
       <>
-        <p>
-          Студенти групи КН-221 розвивають фінансову грамотність граючи гру
-          «Життєвий Капітал». Основна мета гри – покращити модель відносин з
-          грошовим потоком і керувати ним з метою створення сімейного капіталу.
-          За ігровим столом вирують справжні емоції!
-        </p>
-      </>
-    ),
-  },
-
-  {
-    title: "Художня самодіяльність",
-    content: (
-      <>
         <Slider items={dataSponsors_1} type="row" />
       </>
     ),
   },
   {
-    title: "Клуб фінансової грамотності",
     content: (
       <>
         <Slider items={dataSponsors_2} type="row" />
@@ -66,7 +49,6 @@ export const dataContent = [
     ),
   },
   {
-    title: "День соборності",
     content: (
       <>
         <Slider items={dataSponsors_3} type="row" />
@@ -74,25 +56,9 @@ export const dataContent = [
     ),
   },
   {
-    title: "Година КОДУ",
     content: (
       <>
         <Slider items={dataSponsors_4} type="row" />
-      </>
-    ),
-  },
-  {
-    title: "Дебют 2- курсника",
-    content: (
-      <>
-        <Slider items={dataSponsors_5} type="row" />
-      </>
-    ),
-  },
-  {
-    content: (
-      <>
-        <Slider items={dataSponsors_6} type="row" />
       </>
     ),
   },

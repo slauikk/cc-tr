@@ -8,9 +8,23 @@ export interface ISponsors {
 
 export const dataSponsorsSource_1: ISponsors[][] = [
   [
-    {img: "/assets/studentLeisure/художня/1.png"},
-    {img: "/assets/studentLeisure/художня/2.png"},
-    {img: "/assets/studentLeisure/художня/3.png"},
+    {img: "/assets/studentLeisure/new1/1.jpg"},
+    {img: "/assets/studentLeisure/new1/2.jpg"},
+    {img: "/assets/studentLeisure/new1/3.jpg"},
+    {img: "/assets/studentLeisure/new1/4.jpg"},
+    {img: "/assets/studentLeisure/new1/5.jpg"},
+    {img: "/assets/studentLeisure/new1/6.jpg"},
+    {img: "/assets/studentLeisure/new1/7.jpg"},
+    {img: "/assets/studentLeisure/new1/8.jpg"},
+    {img: "/assets/studentLeisure/new1/9.jpg"},
+    {img: "/assets/studentLeisure/new1/10.jpg"},
+    {img: "/assets/studentLeisure/new1/11.jpg"},
+    {img: "/assets/studentLeisure/new1/11.jpg"},
+    {img: "/assets/studentLeisure/new1/12.jpg"},
+    {img: "/assets/studentLeisure/new1/13.jpg"},
+    {img: "/assets/studentLeisure/new1/14.jpg"},
+    {img: "/assets/studentLeisure/new1/15.jpg"},
+    {img: "/assets/studentLeisure/new1/16.jpg"},
   ],
 ]
 
@@ -29,9 +43,28 @@ dataSponsorsSource_1.map((e, i) => {
 
 export const dataSponsorsSource_2: ISponsors[][] = [
   [
-    {img: "/assets/studentLeisure/клуб/1.png"},
-    {img: "/assets/studentLeisure/клуб/2.png"},
-    {img: "/assets/studentLeisure/клуб/3.png"},
+    {img: "/assets/studentLeisure/new2/1.jpg"},
+    {img: "/assets/studentLeisure/new2/2.jpg"},
+    {img: "/assets/studentLeisure/new2/3.jpg"},
+    {img: "/assets/studentLeisure/new2/4.jpg"},
+    {img: "/assets/studentLeisure/new2/5.jpg"},
+    {img: "/assets/studentLeisure/new2/6.jpg"},
+    {img: "/assets/studentLeisure/new2/7.jpg"},
+    {img: "/assets/studentLeisure/new2/8.jpg"},
+    {img: "/assets/studentLeisure/new2/9.jpg"},
+    {img: "/assets/studentLeisure/new2/10.jpg"},
+    {img: "/assets/studentLeisure/new2/11.jpg"},
+    {img: "/assets/studentLeisure/new2/11.jpg"},
+    {img: "/assets/studentLeisure/new2/12.jpg"},
+    {img: "/assets/studentLeisure/new2/13.jpg"},
+    {img: "/assets/studentLeisure/new2/14.jpg"},
+    {img: "/assets/studentLeisure/new2/15.jpg"},
+    {img: "/assets/studentLeisure/new2/16.jpg"},
+    {img: "/assets/studentLeisure/new2/17.jpg"},
+    {img: "/assets/studentLeisure/new2/18.jpg"},
+    {img: "/assets/studentLeisure/new2/19.jpg"},
+    {img: "/assets/studentLeisure/new2/20.jpg"},
+    {img: "/assets/studentLeisure/new2/21.jpg"},
   ],
 ]
 
@@ -50,10 +83,32 @@ dataSponsorsSource_2.map((e, i) => {
 
 export const dataSponsorsSource_3: ISponsors[][] = [
   [
-    {img: "/assets/studentLeisure/соборність/1.png"},
-    {img: "/assets/studentLeisure/соборність/2.png"},
-    {img: "/assets/studentLeisure/соборність/3.png"},
-    {img: "/assets/studentLeisure/соборність/4.png"},
+    {img: "/assets/studentLeisure/new3/1.jpg"},
+    {img: "/assets/studentLeisure/new3/2.jpg"},
+    {img: "/assets/studentLeisure/new3/3.jpg"},
+    {img: "/assets/studentLeisure/new3/4.jpg"},
+    {img: "/assets/studentLeisure/new3/5.jpg"},
+    {img: "/assets/studentLeisure/new3/6.jpg"},
+    {img: "/assets/studentLeisure/new3/7.jpg"},
+    {img: "/assets/studentLeisure/new3/8.jpg"},
+    {img: "/assets/studentLeisure/new3/9.jpg"},
+    {img: "/assets/studentLeisure/new3/10.jpg"},
+    {img: "/assets/studentLeisure/new3/11.jpg"},
+    {img: "/assets/studentLeisure/new3/11.jpg"},
+    {img: "/assets/studentLeisure/new3/12.jpg"},
+    {img: "/assets/studentLeisure/new3/13.jpg"},
+    {img: "/assets/studentLeisure/new3/14.jpg"},
+    {img: "/assets/studentLeisure/new3/15.jpg"},
+    {img: "/assets/studentLeisure/new3/16.jpg"},
+    {img: "/assets/studentLeisure/new3/17.jpg"},
+    {img: "/assets/studentLeisure/new3/18.jpg"},
+    {img: "/assets/studentLeisure/new3/19.jpg"},
+    {img: "/assets/studentLeisure/new3/20.jpg"},
+    {img: "/assets/studentLeisure/new3/21.jpg"},
+    {img: "/assets/studentLeisure/new3/22.jpg"},
+    {img: "/assets/studentLeisure/new3/23.jpg"},
+    {img: "/assets/studentLeisure/new3/24.jpg"},
+    {img: "/assets/studentLeisure/new3/25.jpg"},
   ],
 ]
 
@@ -72,9 +127,31 @@ dataSponsorsSource_3.map((e, i) => {
 
 export const dataSponsorsSource_4: ISponsors[][] = [
   [
-    {img: "/assets/studentLeisure/код/1.png"},
-    {img: "/assets/studentLeisure/код/2.png"},
-    {img: "/assets/studentLeisure/код/3.png"},
+    {img: "/assets/studentLeisure/new4/1.jpg"},
+    {img: "/assets/studentLeisure/new4/2.jpg"},
+    {img: "/assets/studentLeisure/new4/3.jpg"},
+    {img: "/assets/studentLeisure/new4/4.jpg"},
+    {img: "/assets/studentLeisure/new4/5.jpg"},
+    {img: "/assets/studentLeisure/new4/6.jpg"},
+    {img: "/assets/studentLeisure/new4/7.jpg"},
+    {img: "/assets/studentLeisure/new4/8.jpg"},
+    {img: "/assets/studentLeisure/new4/9.jpg"},
+    {img: "/assets/studentLeisure/new4/10.jpg"},
+    {img: "/assets/studentLeisure/new4/11.jpg"},
+    {img: "/assets/studentLeisure/new4/11.jpg"},
+    {img: "/assets/studentLeisure/new4/12.jpg"},
+    {img: "/assets/studentLeisure/new4/13.jpg"},
+    {img: "/assets/studentLeisure/new4/14.jpg"},
+    {img: "/assets/studentLeisure/new4/15.jpg"},
+    {img: "/assets/studentLeisure/new4/16.jpg"},
+    {img: "/assets/studentLeisure/new4/17.jpg"},
+    {img: "/assets/studentLeisure/new4/18.jpg"},
+    {img: "/assets/studentLeisure/new4/19.jpg"},
+    {img: "/assets/studentLeisure/new4/20.jpg"},
+    {img: "/assets/studentLeisure/new4/21.jpg"},
+    {img: "/assets/studentLeisure/new4/22.jpg"},
+    {img: "/assets/studentLeisure/new4/23.jpg"},
+    {img: "/assets/studentLeisure/new4/24.jpg"},
   ],
 ]
 
@@ -88,47 +165,5 @@ dataSponsorsSource_4.map((e, i) => {
   e.map((el) => {
     const elem = <SlideItem {...el} />
     dataSponsors_4[i] = [...dataSponsors_4[i], elem]
-  })
-})
-
-export const dataSponsorsSource_5: ISponsors[][] = [
-  [
-    {img: "/assets/studentLeisure/дебют/1.png"},
-    {img: "/assets/studentLeisure/дебют/2.png"},
-    {img: "/assets/studentLeisure/дебют/3.png"},
-  ],
-]
-
-export let dataSponsors_5: ReactNode[][] = [[]]
-
-Array(dataSponsorsSource_5.length)
-  .fill(null)
-  .map(() => (dataSponsors_5 = [...dataSponsors_5, []]))
-
-dataSponsorsSource_5.map((e, i) => {
-  e.map((el) => {
-    const elem = <SlideItem {...el} />
-    dataSponsors_5[i] = [...dataSponsors_5[i], elem]
-  })
-})
-
-export const dataSponsorsSource_6: ISponsors[][] = [
-  [
-    {img: "/assets/studentLeisure/різдво/1.png"},
-    {img: "/assets/studentLeisure/слово/1.png"},
-    {img: "/assets/studentLeisure/театр/1.png"},
-  ],
-]
-
-export let dataSponsors_6: ReactNode[][] = [[]]
-
-Array(dataSponsorsSource_6.length)
-  .fill(null)
-  .map(() => (dataSponsors_6 = [...dataSponsors_6, []]))
-
-dataSponsorsSource_6.map((e, i) => {
-  e.map((el) => {
-    const elem = <SlideItem {...el} />
-    dataSponsors_6[i] = [...dataSponsors_6[i], elem]
   })
 })
