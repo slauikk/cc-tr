@@ -2,43 +2,31 @@ export const dataContent = [
   {
     content: (
       <>
-        <ol>
           <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=748">
-              Слюсарно - механічна
+            <a href="https://eguru1.tk.te.ua/enrol/index.php?id=657">
+              Навчальна радіомонтажна практика
             </a>
           </li>
           <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=750">
-              Електромонтажна практика
+            <a href="https://eguru1.tk.te.ua/enrol/index.php?id=658">
+              Навчальна електрорадіовимірювальна практика
             </a>
           </li>
           <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=751">
-              Практика на засобах вимірювальної техніки
+            <a href="https://eguru1.tk.te.ua/course/view.php?id=1277#section-0">
+              Навчальна практика з інформаційних технологій
             </a>
           </li>
           <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=752">
-              Практика з використанням комп’ютерної та мікропроцесорної техніки
+            <a href="https://eguru1.tk.te.ua/course/view.php?id=1284">
+              Виробнича технологічна практика
             </a>
           </li>
           <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=754">
-              Практика для отримання робітничої професії
+            <a href="https://eguru1.tk.te.ua/course/view.php?id=566">
+              Виробнича передатестаційна практика
             </a>
           </li>
-          <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=755">
-              Технологічна практика
-            </a>
-          </li>
-          <li>
-            <a href="https://eguru1.tk.te.ua/course/view.php?id=756">
-              Переддипломна практика
-            </a>
-          </li>
-        </ol>
       </>
     ),
   },

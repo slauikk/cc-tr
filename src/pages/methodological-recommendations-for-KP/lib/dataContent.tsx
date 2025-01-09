@@ -5,16 +5,15 @@ export const dataContent = [
         <ul>
           <li>
             <p>
-              <a href="https://eguru1.tk.te.ua/course/view.php?id=800">
-                Електроустаткування автомобілів
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=1275">
+                Методичні вказівки до виконання курсової роботи з дисципліни «Мікропроцесорні пристрої та системи»
               </a>
             </p>
           </li>
           <li>
             <p>
-              <a href="https://eguru1.tk.te.ua/course/view.php?id=614">
-                Технічне обслуговування та ремонт електроустаткування
-                автомобілів
+              <a href="https://eguru1.tk.te.ua/course/view.php?id=391">
+                Методичні вказівки до виконання курсової роботи з дисципліни «Комплексний курсовий проект»
               </a>
             </p>
           </li>
