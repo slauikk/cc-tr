@@ -72,3 +72,47 @@ dataSponsorsSource_3.map((e, i) => {
     dataSponsors_3[i] = [...dataSponsors_3[i], elem]
   })
 })
+
+export const dataSponsorsSource_4: ISponsors[][] = [
+  [
+    {img: "/assets/material-and-technical-base-cc/4/1.jpg"},
+    {img: "/assets/material-and-technical-base-cc/4/2.jpg"},
+    {img: "/assets/material-and-technical-base-cc/4/3.jpg"},
+    {img: "/assets/material-and-technical-base-cc/4/4.jpg"},
+  ],
+]
+
+export let dataSponsors_4: ReactNode[][] = [[]]
+
+Array(dataSponsorsSource_4.length)
+  .fill(null)
+  .map(() => (dataSponsors_4 = [...dataSponsors_4, []]))
+
+dataSponsorsSource_4.map((e, i) => {
+  e.map((el) => {
+    const elem = <SlideItem {...el} />
+    dataSponsors_4[i] = [...dataSponsors_4[i], elem]
+  })
+})
+
+export const dataSponsorsSource_5: ISponsors[][] = [
+  [
+    {img: "/assets/material-and-technical-base-cc/5/1.jpg"},
+    {img: "/assets/material-and-technical-base-cc/5/2.jpg"},
+    {img: "/assets/material-and-technical-base-cc/5/3.jpg"},
+    {img: "/assets/material-and-technical-base-cc/5/4.jpg"},
+  ],
+]
+
+export let dataSponsors_5: ReactNode[][] = [[]]
+
+Array(dataSponsorsSource_5.length)
+  .fill(null)
+  .map(() => (dataSponsors_5 = [...dataSponsors_5, []]))
+
+dataSponsorsSource_5.map((e, i) => {
+  e.map((el) => {
+    const elem = <SlideItem {...el} />
+    dataSponsors_5[i] = [...dataSponsors_5[i], elem]
+  })
+})

@@ -5,6 +5,8 @@ import {
   dataSponsors_1,
   dataSponsors_2,
   dataSponsors_3,
+  dataSponsors_4,
+  dataSponsors_5,
 } from "../data/dataSlider"
 
 //101
@@ -133,6 +135,22 @@ export const dataContent = [
     content: (
       <>
         <Slider items={dataSponsors_3} type="row" />
+      </>
+    ),
+  },
+  {
+    title: "Кабінет \"Метрології, стандартизації, сертифікації і вимірювальної техніки. Джерела живлення. Акустичні пристрої.\"",
+    content: (
+      <>
+        <Slider items={dataSponsors_4} type="row" />
+      </>
+    ),
+  },
+  {
+    title: "Схемотехніки раідотехнічних пристроїв. Основ телебачення. Радіопрймальних пристроїв. Радіотехнічних систем.",
+    content: (
+      <>
+        <Slider items={dataSponsors_5} type="row" />
       </>
     ),
   },
