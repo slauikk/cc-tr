@@ -7,6 +7,7 @@ import {
   dataSponsors_3,
   dataSponsors_4,
   dataSponsors_5,
+  dataSponsors_6,
 } from "../data/dataSlider"
 
 export const dataContent = [
@@ -47,6 +48,14 @@ export const dataContent = [
     content: (
       <>
         <Slider items={dataSponsors_5} type="row" />
+      </>
+    ),
+  },
+  {
+    title: "Кабінет Електротехніки та матеріалознавства.",
+    content: (
+      <>
+        <Slider items={dataSponsors_6} type="row" />
       </>
     ),
   },

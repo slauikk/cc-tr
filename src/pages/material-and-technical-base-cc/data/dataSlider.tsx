@@ -116,3 +116,25 @@ dataSponsorsSource_5.map((e, i) => {
     dataSponsors_5[i] = [...dataSponsors_5[i], elem]
   })
 })
+
+export const dataSponsorsSource_6: ISponsors[][] = [
+  [
+    {img: "/assets/material-and-technical-base-cc/6/1.png"},
+    {img: "/assets/material-and-technical-base-cc/6/2.png"},
+    {img: "/assets/material-and-technical-base-cc/6/3.png"},
+    {img: "/assets/material-and-technical-base-cc/6/4.png"},
+  ],
+]
+
+export let dataSponsors_6: ReactNode[][] = [[]]
+
+Array(dataSponsorsSource_6.length)
+  .fill(null)
+  .map(() => (dataSponsors_6 = [...dataSponsors_6, []]))
+
+dataSponsorsSource_6.map((e, i) => {
+  e.map((el) => {
+    const elem = <SlideItem {...el} />
+    dataSponsors_6[i] = [...dataSponsors_6[i], elem]
+  })
+})
