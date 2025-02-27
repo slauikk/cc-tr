@@ -36,6 +36,10 @@
   gap: 50px;
   padding: 50px 30px;
 
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
   background: $white;
   box-shadow: 0px 4px 25px $shadow_s;
   border-radius: 30px;
@@ -50,7 +54,10 @@
   font-weight: 500;
   font-size: 70px;
   line-height: 110%;
-
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   @media screen and (max-width: $mobile-s) {
     font-size: get-vw-ms(25px);
   }
