@@ -106,7 +106,6 @@ export const dataContent = [
 
         </p>
         <p>Крочак Валентин: проектування друкованого вузла з використанням САПР – ІII місце;</p>
-        <Images images={[img_5_1, img_5_2, img_5_3, img_5_4, img_5_5]} />
         <Slider items={dataSponsors_1} type="row" />
       </>
     ),

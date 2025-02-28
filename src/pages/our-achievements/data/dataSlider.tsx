@@ -8,11 +8,11 @@ export interface ISponsors {
 
 export const dataSponsorsSource_1: ISponsors[][] = [
   [
-    {img: "/assets/achivements/10.jpg"},
-    {img: "/assets/achivements/11.jpg"},
-    {img: "/assets/achivements/12.jpg"},
-    {img: "/assets/achivements/13.jpg"},
-    {img: "/assets/achivements/14.png"},
+    {img: "/assets/achievements/10.jpg"},
+    {img: "/assets/achievements/11.jpg"},
+    {img: "/assets/achievements/12.jpg"},
+    {img: "/assets/achievements/13.jpg"},
+    {img: "/assets/achievements/14.png"},
   ],
 ]
 
