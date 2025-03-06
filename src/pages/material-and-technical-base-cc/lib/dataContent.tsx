@@ -8,6 +8,7 @@ import {
   dataSponsors_4,
   dataSponsors_5,
   dataSponsors_6,
+  dataSponsors_7,
 } from "../data/dataSlider"
 
 export const dataContent = [
@@ -56,6 +57,14 @@ export const dataContent = [
     content: (
       <>
         <Slider items={dataSponsors_6} type="row" />
+      </>
+    ),
+  },
+  {
+    title: "Конструювання та технології виробництва РЕА Систем автоматизованого проектування",
+    content: (
+      <>
+        <Slider items={dataSponsors_7} type="row" />
       </>
     ),
   },
