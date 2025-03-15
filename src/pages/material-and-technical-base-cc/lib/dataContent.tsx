@@ -9,6 +9,7 @@ import {
   dataSponsors_5,
   dataSponsors_6,
   dataSponsors_7,
+  dataSponsors_8,
 } from "../data/dataSlider"
 
 export const dataContent = [
@@ -65,6 +66,14 @@ export const dataContent = [
     content: (
       <>
         <Slider items={dataSponsors_7} type="row" />
+      </>
+    ),
+  },
+  {
+    title: "Технічного обслуговування та ремонту побутової радіоелектричної техніки. Мікропроцесорних систем",
+    content: (
+      <>
+        <Slider items={dataSponsors_8} type="row" />
       </>
     ),
   },
