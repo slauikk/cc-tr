@@ -11,7 +11,7 @@ const certificatesData: ReactNode[][] = [
     <img src="/assets/cer/2.jpg" style={{width: 'auto', height: '300px'}}/>,
     <img src="/assets/cer/3.png" style={{width: 'auto', height: '300px'}}/>,
     <img src="/assets/cer/4.png" style={{width: 'auto', height: '300px'}}/>,
-    <img src="/assets/cer/5.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="/assets/cer/123.png" style={{width: 'auto', height: '300px'}}/>,
   ],
   [
     <img src="/assets/cer/6.jpg" style={{width: 'auto', height: '300px'}}/>,
@@ -38,6 +38,7 @@ const certificatesData: ReactNode[][] = [
     <img src="/assets/cer/21.png" style={{width: 'auto', height: '300px'}}/>,
     <img src="/assets/cer/22.jpg" style={{width: 'auto', height: '300px'}}/>,
     <img src="/assets/cer/23.png" style={{width: 'auto', height: '300px'}}/>,
+    <img src="/assets/cer/5.png" style={{width: 'auto', height: '300px'}}/>,
   ],
 ]
 
@@ -111,7 +112,7 @@ export const dataContent = [
         <h2>Стажування:</h2>
         <ul>
           <li>
-            В вищих навчальних закладах в Тернопільському національному
+            В закладах вищої освіти, а зокрема в Тернопільському національному
             технічному університет імені Івана Пулюя , кафедра радіотехнічних
             систем а також в Тернопільському національного педагогічного
             університету імені Володимира Гнатюка.
