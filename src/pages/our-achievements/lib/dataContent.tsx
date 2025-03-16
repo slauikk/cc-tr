@@ -33,7 +33,7 @@ export const dataContent = [
   {
     content: (
       <>
-        <p>
+        <p style={{textAlign: "center", fontWeight: "bold"}}>
           <b>
             Участь та перемоги  у Всеукраїнських олімпіадах з радіоелектроніки
 
