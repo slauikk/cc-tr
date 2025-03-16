@@ -28,7 +28,7 @@ import img_7_1 from "@/assets/achivements/17.jpg"
 import img_7_2 from "@/assets/achivements/18.jpg"
 import img_7_3 from "@/assets/achivements/19.jpg"
 
-import {dataSponsors_1} from "../data/dataSlider"
+import {dataSponsors_1, dataSponsors_2} from "../data/dataSlider"
 export const dataContent = [
   {
     content: (
@@ -133,6 +133,26 @@ export const dataContent = [
           </b>
         </p>
         <Images images={[img_7_1,img_7_2,img_7_3]} />
+      </>
+    ),
+  },
+  {
+  content: (
+  <>
+    <p style={{textAlign: "center", fontWeight: "bold"}}>
+      <b>
+        Участь у всеукраїнських та міжнародних наукових конференціях
+
+      </b>
+    </p>
+  </>
+),
+},
+  {
+    content: (
+      <>
+        <p>Викладачі спеціальності <b>172 "Електронні комунікації та радіотехніка"</b> активно працюють зі студентами, готуючи їх до участі у всеукраїнських та міжнародних наукових конференціях. Вони сприяють розвитку дослідницьких навичок студентів, допомагають у написанні тез та наукових доповідей, що дозволяє майбутнім фахівцям презентувати свої здобутки на професійних наукових заходах.</p>
+        <Slider items={dataSponsors_2} type="row" />
       </>
     ),
   },
