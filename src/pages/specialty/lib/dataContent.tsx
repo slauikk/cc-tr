@@ -1,6 +1,5 @@
 import {Images} from "@/components/images"
 import {Img} from "@/components/img"
-
 import img_1 from "@/assets/specialty/буклет 1.png"
 import img_2 from "@/assets/specialty/буклет 2.png"
 
@@ -102,7 +101,10 @@ export const dataContent = [
   {
     content: (
       <>
-        <Images images={[img_1, img_2]} height={400} />
+        <Img src={img_1}/>
+        <div style={{textAlign: "right"}}>
+          <Img src={img_2} />
+        </div>
       </>
     ),
   },
