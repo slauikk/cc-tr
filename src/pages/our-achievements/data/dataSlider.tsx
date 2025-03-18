@@ -117,3 +117,30 @@ dataSponsorsSource_4.map((e, i) => {
     dataSponsors_4[i] = [...dataSponsors_4[i], elem]
   })
 })
+
+
+export const dataSponsorsSource_5: ISponsors[][] = [
+  [
+    {img: "/assets/achievements/301.jpg"},
+    {img: "/assets/achievements/302.jpg"},
+    {img: "/assets/achievements/303.png"},
+    {img: "/assets/achievements/304.png"},
+    {img: "/assets/achievements/305.jpg"},
+    {img: "/assets/achievements/306.jpg"},
+    {img: "/assets/achievements/307.png"},
+    {img: "/assets/achievements/308.png"},
+  ],
+]
+
+export let dataSponsors_5: ReactNode[][] = [[]]
+
+Array(dataSponsorsSource_5.length)
+  .fill(null)
+  .map(() => (dataSponsors_5 = [...dataSponsors_5, []]))
+
+dataSponsorsSource_5.map((e, i) => {
+  e.map((el) => {
+    const elem = <SlideItem {...el} />
+    dataSponsors_5[i] = [...dataSponsors_5[i], elem]
+  })
+})
