@@ -4,7 +4,7 @@ import { Img } from "@/components/img";
 import img_8 from "@/assets/people/недошитко.jpg";
 import img_7 from "@/assets/people/Березіцький.png";
 import img_1 from "@/assets/people/Валилишин.png";
-import img_4 from "@/assets/people/Задорожній.png";
+import img_4 from "@/assets/people/Задорожний.jpg";
 import img_2 from "@/assets/people/Приймак.jpg";
 import img_3 from "@/assets/people/Савчук.jpg";
 import img_5 from "@/assets/people/Федечко.png";
