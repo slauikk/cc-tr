@@ -44,7 +44,7 @@ const certificatesData: ReactNode[][] = [
 
 export const dataContent = [
   {
-    title: "Для якісної реалізації цього напрямку викладачі комісії:",
+    title: "Для якісної реалізації цього напрямку викладачі циклової комісії:",
     content: (
       <>
         <p>
