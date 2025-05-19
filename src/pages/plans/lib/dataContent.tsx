@@ -9,12 +9,12 @@ export const dataContent = [
         </li>
         <li>
           <a href="public/assets/plans/ТР_БЗСО_2022.pdf">
-            ТР_БЗ_2022
+            ТР_БЗСО_2022
           </a>
         </li>
         <li>
           <a href="public/assets/plans/ТР_БЗСО_2023.pdf">
-            ТР_БЗ_2023
+            ТР_БЗСО_2023
           </a>
         </li>
         <li>
