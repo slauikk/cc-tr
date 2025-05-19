@@ -68,6 +68,10 @@ export const dataHeader = [
         title: "Практики",
         path: "/practices",
       },
+      {
+        title: "Навчальні плани",
+        path: "/plans",
+      },
     ],
   },
   // {

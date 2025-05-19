@@ -16,6 +16,7 @@ import {Specialty} from "./specialty"
 import {StudentLeisure} from "./student-leisure-time"
 import {Syllabuses} from "./syllabuses"
 import {SyllabusesChoice} from "./syllabuses-choice"
+import {Plans} from "./plans"
 
 export const pages = [
   {
@@ -106,6 +107,11 @@ export const pages = [
   {
     path: "/syllabuses-choice",
     Component: SyllabusesChoice,
+    title: "Наші",
+  },
+  {
+    path: "/plans",
+    Component: Plans,
     title: "Наші",
   },
 ]
