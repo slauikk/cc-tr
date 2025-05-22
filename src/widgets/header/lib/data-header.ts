@@ -57,7 +57,7 @@ export const dataHeader = [
         path: "/syllabuses-choice",
       },
       {
-        title: "Методичні рекомендації до КР",
+        title: "Методичні рекомендації до КП",
         path: "/methodological-recommendations-for-KP",
       },
       {

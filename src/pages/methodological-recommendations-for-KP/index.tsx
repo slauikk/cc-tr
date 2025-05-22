@@ -16,7 +16,7 @@ export const MethodologicalKP: FC<IMethodologicalKP> = () => {
   const googleSheet = getFromGoogleSheets("Методичні рекомендації")
 
   return (
-    <PageLayout title="Методичні рекомендації до КР">
+    <PageLayout title="Методичні рекомендації до КП">
       {dataContent.map((e, i) => (
         <PageItem {...e} key={i} />
       ))}
