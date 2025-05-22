@@ -13,23 +13,13 @@ export const dataContent = [
           </a>
         </li>
         <li>
-          <a href="/assets/plans/ТР_БЗСО_2023.pdf">
+          <a href="/assets/plans/БЗСО_2023.pdf">
             ТР_БЗСО_2023
           </a>
         </li>
         <li>
-          <a href="/assets/plans/ТР_ПТО_2023.pdf">
-            ТР_ПТО_2023
-          </a>
-        </li>
-        <li>
           <a href="/assets/plans/КР_2023.pdf">
-            КР_2023
-          </a>
-        </li>
-        <li>
-          <a href="/assets/plans/БЗСО_2023.pdf">
-            БЗСО_2023
+            ТР_ПТО_2023
           </a>
         </li>
       </>
